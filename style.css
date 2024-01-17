@@ -9,6 +9,18 @@
   margin-bottom:1em;
 }
 
+#custom-content h1{
+  margin-bottom:1em;
+}
+#custom-content h2{
+  margin-bottom:1em;
+}
+#custom-content h3{
+  margin-bottom:1em;
+}
+#custom-content h4{
+  margin-bottom:1em;
+}
 /* Bullets */ 
 
 ul.customBullets {
