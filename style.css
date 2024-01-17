@@ -123,3 +123,21 @@ ul.customBullets li::before {
   padding: 5px 0; /* Add some padding for spacing */
 }
 
+/* 2 col Grid */
+.grid-container-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* space between grid items */
+}
+
+.grid-item {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  padding: 10px; /* Padding around grid items */
+}
+
+
+.text p {
+  margin: 0; /* Remove default paragraph margin */
+  /* Additional text styling as needed */
+}
