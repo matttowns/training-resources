@@ -142,7 +142,12 @@ ul.customBullets li::before {
   align-items: center; /* Align icon and text vertically */
   padding: 10px; /* Padding around grid items */
 }
-
+.grid-text{
+  display: flex;
+  flex-flow: column;
+  padding-left: 1rem;
+  justify-content: space-between;
+}
 
 .text p {
   margin: 0; /* Remove default paragraph margin */
