@@ -1,4 +1,11 @@
+/* General */
+@media screen and (max-width: 1200px) { /* or any breakpoint you choose */
+    body {
+        font-size: 14px; /* a smaller font size */
+    }
+  }
 
+/* Category Selector */ 
 #categoryDiagram {
   display: flex;
   flex-wrap: wrap;
@@ -60,3 +67,4 @@
   margin: 0; /* Remove default margins */
   padding: 5px 0; /* Add some padding for spacing */
 }
+
