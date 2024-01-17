@@ -21,8 +21,25 @@
 #custom-content h4{
   margin-bottom:1em;
 }
-/* Bullets */ 
 
+/* Circle Icon */
+.circle-icon {
+  width: 100px; /* Size of the circle */
+  height: 100px; /* Size of the circle */
+  border-radius: 50%; /* Makes the div circular */
+  background-color: #23ca55; /* Background color of the circle */
+  display: flex;
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+}
+
+.circle-icon img {
+  width: 33%; /* Size of the icon */
+  height: auto; /* Keep the aspect ratio of the icon */
+  filter: invert(99%) sepia(6%) saturate(261%) hue-rotate(299deg) brightness(117%) contrast(100%);
+}
+
+/* Bullets */ 
 ul.customBullets {
   list-style: none; /* Removes default bullets */
   padding-left: 0; /* Removes default padding */
