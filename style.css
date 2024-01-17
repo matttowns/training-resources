@@ -33,6 +33,13 @@
   align-items: center; /* Center the icon vertically */
 }
 
+.circle-icon.green{
+  background-color: #23ca55; /* Background color of the circle */
+}
+.circle-icon.red{
+  background-color: #ca3c23; /* Background color of the circle */
+}
+
 .circle-icon img {
   width: 40%; /* Size of the icon */
   height: auto; /* Keep the aspect ratio of the icon */
