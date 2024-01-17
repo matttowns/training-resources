@@ -141,6 +141,11 @@ ul.customBullets li::before {
   gap: 20px; /* space between grid items */
 }
 
+@media screen and (max-width: 1200px) { /* or any breakpoint you choose */
+  .grid-container-2-col {
+    grid-template-columns: repeat(1, 1fr); /* 2 columns */
+  }
+}
 .grid-item {
   display: flex;
   align-items: center; /* Align icon and text vertically */
