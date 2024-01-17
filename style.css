@@ -41,9 +41,13 @@
 }
 
 .circle-icon img {
-  width: 40%; /* Size of the icon */
+  width: 50%; /* Size of the icon */
   height: auto; /* Keep the aspect ratio of the icon */
   filter: invert(99%) sepia(6%) saturate(261%) hue-rotate(299deg) brightness(117%) contrast(100%);
+}
+
+.circle-icon img.larger {
+  width: 40%; /* Size of the icon */
 }
 
 /* Bullets */ 
