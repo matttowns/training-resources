@@ -5,9 +5,32 @@
     }
   }
 
-#custom-content p{
+.custom-content p{
   margin-bottom:1em;
 }
+
+/* Bullets */ 
+
+ul.customBullets {
+  list-style: none; /* Removes default bullets */
+  padding-left: 0; /* Removes default padding */
+}
+
+ul.customBullets li {
+  position: relative; /* Needed for absolute positioning of the pseudo-element */
+  margin-bottom: 10px; /* Spacing between list items */
+  margin-left:40px
+}
+
+ul.customBullets li::before {
+  content: '•'; /* The bullet character */
+  color: #00749E; /* The color of the bullet */
+  font-size: 40px; /* Size of the bullet */
+  position: absolute; /* Positioning relative to the li element */
+  left: -40px; /* Distance from the left edge of the li element */
+  top: 0; /* Align with the top of the li element */
+}
+
 /* Category Selector */ 
 #categoryDiagram {
   display: flex;
